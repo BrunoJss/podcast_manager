@@ -2,17 +2,18 @@ import * as http from 'http';
 
 import {getFilteredEpisodes, getListEpisodes} from './controllers/podcasts-controller';
 import { Routes } from './routes/routes';
+import { HttpMethod } from './utils/http-methods';
 
 const server = http.createServer( async (req:http.IncomingMessage, res:http.ServerResponse) => {
 
     //queryString
     const [baseUrl, queryString] = req.url?.split('?') ?? ["", ""];
     
-    if(req.method === "GET" && baseUrl === Routes.LIST){
+    if(req.method === HttpMethod.GET && baseUrl === Routes.LIST){
         await getListEpisodes(req, res);
     }
 
-    if(req.method === 'GET' && baseUrl === Routes.EPISODES){
+    if(req.method === HttpMethod.GET && baseUrl === Routes.EPISODES){
         await getFilteredEpisodes(req, res);
     }
 });

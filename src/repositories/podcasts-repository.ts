@@ -7,7 +7,8 @@ const pathData = path.join(__dirname, "../repositories/podcasts.json");
 
 //parametro?: indica um parametro opicional no TS
 export const repositoryPodcast = async (podcastName?: string): Promise<PodcastModel[]> => {
-    const rawData = fs.readFileSync(pathData, "utf-8")
+    const language = "utf-8";  
+    const rawData = fs.readFileSync(pathData, language)
     let jsonFile = JSON.parse(rawData)
 
     if(podcastName){
