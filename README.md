@@ -61,7 +61,7 @@ PODCAST_MANAGER/
   
 
 ### **Listar todos os episódios**
-**GET**  `/api/list`
+**GET**  `/api/list`  
 **Response:**
 
 ```
@@ -88,7 +88,7 @@ PODCAST_MANAGER/
 ```
 
 ### **Filtrar episódios por nome**
-**GET** `/api/episode?p={channel_name}`
+**GET** `/api/episode?p={channel_name}`  
 **Response:**
 
 ```
