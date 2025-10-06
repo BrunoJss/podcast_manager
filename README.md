@@ -26,18 +26,18 @@ O objetivo é centralizar diferentes episódios de **podcasts em vídeo**, organ
   
 
 ## 🧩 Estrutura do Projeto
-PODCAST_MANAGER/
+PODCAST_MANAGER/  
 │
-├── src/
-│ ├── controllers/
-│ │ └── podcasts-controller.ts
-│ ├── models/
-│ │ ├── podcast-model.ts
-│ │ └── podcast-transfer-model.ts
-│ ├── repositories/
-│ │ ├── podcasts-repository.ts
-│ │ └── podcasts.json
-│ ├── routes/
+├── src/  
+│ ├── controllers/  
+│ │ └── podcasts-controller.ts  
+│ ├── models/  
+│ │ ├── podcast-model.ts  
+│ │ └── podcast-transfer-model.ts  
+│ ├── repositories/  
+│ │ ├── podcasts-repository.ts  
+│ │ └── podcasts.json  
+│ ├── routes/  
 │ │ └── routes.ts
 │ ├── services/
 │ │ ├── filter-episodes-service.ts
