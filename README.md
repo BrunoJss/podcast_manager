@@ -38,21 +38,21 @@ PODCAST_MANAGER/
 │ │ ├── podcasts-repository.ts  
 │ │ └── podcasts.json  
 │ ├── routes/  
-│ │ └── routes.ts
-│ ├── services/
-│ │ ├── filter-episodes-service.ts
-│ │ └── list-episodes-service.ts
-│ ├── utils/
-│ │ ├── content-type.ts
-│ │ ├── http-methods.ts
-│ │ └── status-code.ts
-│ ├── app.ts
-│ └── server.ts
-├── .env
-├── .gitignore
-├── package.json
-├── package-lock.json
-└── README.md
+│ │ └── routes.ts  
+│ ├── services/  
+│ │ ├── filter-episodes-service.ts  
+│ │ └── list-episodes-service.ts  
+│ ├── utils/  
+│ │ ├── content-type.ts  
+│ │ ├── http-methods.ts  
+│ │ └── status-code.ts  
+│ ├── app.ts  
+│ └── server.ts  
+├── .env  
+├── .gitignore  
+├── package.json  
+├── package-lock.json  
+└── README.md  
 
   
 
