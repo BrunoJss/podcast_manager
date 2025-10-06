@@ -125,7 +125,7 @@ A aplicação rodará no endereço configurado em .env, caso contrario a porta p
 
 ## 🛠️ Tecnologias
 
-Node.js
-TypeScript
-Arquitetura REST
-Sem frameworks externos (HTTP puro)
+Node.js  
+TypeScript  
+Arquitetura REST  
+Sem frameworks externos (HTTP puro)  
