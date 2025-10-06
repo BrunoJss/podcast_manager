@@ -110,11 +110,11 @@ PODCAST_MANAGER/
 ## 🧠 Como Funciona
 O projeto segue os princípios da arquitetura REST, dividindo as responsabilidades em camadas claras:
 
-**Controller:** recebe e direciona as requisições
-**Service:** processa regras de negócio
-**Repository:** manipula os dados armazenados
-**Model:** define a estrutura (interfaces) dos objetos
-**Utils:** centraliza constantes e tipos auxiliares
+**Controller:** recebe e direciona as requisições  
+**Service:** processa regras de negócio  
+**Repository:** manipula os dados armazenados  
+**Model:** define a estrutura (interfaces) dos objetos  
+**Utils:** centraliza constantes e tipos auxiliares  
 
 ## 🚀 Execução
 - Clone o repositório: `git clone https://github.com/BrunoJss/podcast_manager.git`
